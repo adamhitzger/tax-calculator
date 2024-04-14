@@ -81,7 +81,7 @@ public class FileController {
                 tax -= (dite + dvedeti+vicedeti);
                 break;
             default:
-                tax -= (dite + dvedeti + vicedeti + (kids-3 * vicedeti));
+                tax -= (dite + dvedeti + vicedeti + ((kids-3) * vicedeti));
                 break;
         }
         if(tax > 0){
